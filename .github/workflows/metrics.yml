@@ -30,7 +30,8 @@ jobs:
           user: kawaiiPlat
           template: classic
           base: header, activity, community, repositories, metadata
-          config_display: columns
+          commits_authoring: .user.login, thecaptainglaceon@gmail.com
+          config_display: large
           config_timezone: America/New_York
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -38,6 +39,7 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
+          plugin_languages_ignored: HTML, Dart
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
@@ -47,4 +49,4 @@ jobs:
           plugin_projects: yes
           plugin_projects_descriptions: yes
           plugin_projects_limit: 4
-          plugin_projects_repositories: uf-mil/projects/1
+          plugin_projects_repositories: uf-mil/projects/3
